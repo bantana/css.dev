@@ -1,42 +1,75 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+/* the props */
+@import "open-props/style";
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+/* optional imports that use the props */
+@import "open-props/normalize";
+@import "open-props/buttons";
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* just light or dark themes */
+/* @import "open-props/normalize/dark"; */
+/* @import "open-props/buttons/dark"; */
+@import "open-props/normalize/light";
+@import "open-props/buttons/light";
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
+/* individual imports */
+@import "open-props/indigo";
+@import "open-props/easings";
+@import "open-props/animations";
+@import "open-props/sizes";
+@import "open-props/gradients";
+/* see PropPacks for the full list */
 
-.card {
-  padding: 2em;
-}
+/* @import "theme.css"; */
 
-.read-the-docs {
-  color: #888;
-}
+/* body { */
+/*   display: grid; */
+/*   place-content: center; */
+/* } */
+
+/* :root { */
+/*   --list-style: none; */
+/* } */
+
+/* form { */
+/*   font-family: var(--font-family); */
+/*   width: 400px; */
+/*   margin: var(--spacing) auto; */
+/*   padding: var(--spacing); */
+/*   border: 1px solid var(--border-color); */
+/*   border-radius: var(--radius); */
+/*   background: var(--background); */
+/*   box-shadow: var(--shadow); */
+/*   h2 { */
+/*     margin-bottom: var(--spacing); */
+/*     color: var(--primary); */
+/*     text-align: center; */
+/*   } */
+/*   label { */
+/*     display: block; */
+/*     margin-bottom: var(--spacing); */
+/*     font-weight: var(--font-weight); */
+/*     color: var(--primary); */
+/*   } */
+/*   input { */
+/*     width: 100%; */
+/*     padding: var(--size-2); */
+/*     margin-bottom: var(--size-3); */
+/*     border: 1px solid var(--border-color); */
+/*     border-radius: var(--radius); */
+/*     box-shadow: var(--shadow); */
+/*   } */
+/*   button { */
+/*     width: 100%; */
+/*     padding: var(--size-2); */
+/*     background: var(--background); */
+/*     color: var(--primary); */
+/*     border: none; */
+/*     border-radius: var(--radius); */
+/*     cursor: pointer; */
+/*     transition: background var(--ease-in-out); */
+/*   } */
+/*   button:hover { */
+/*     color: var(--seconday); */
+/*     background: var(--seconday-hover); */
+/*   } */
+/* } */

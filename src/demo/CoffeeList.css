@@ -1,0 +1,21 @@
+.coffees {
+  margin: 20px 0;
+  a {
+    display: inline-block;
+    min-width: 300px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: var(--primary);
+    background: var(--blue-2);
+    border-color: var(--yellow-6);
+    border-radius: var(--radius-round);
+  }
+}
+
+@supports (display: grid) {
+  .coffees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--size-1);
+  }
+}

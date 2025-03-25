@@ -1,0 +1,32 @@
+nav {
+  ul {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    li {
+      list-style: none;
+
+      /* a:link { */
+      /*   text-decoration: none; */
+      /* } */
+      /* a:visited { */
+      /*   background: var(--secondary); */
+      /* } */
+      /* a:hover { */
+      /*   background-color: transparent; */
+      /*   color: var(--secondary-hover); */
+      /*   text-decoration: underline; */
+      /* } */
+      a:hover {
+        color: red;
+      }
+      a:active {
+        color: var(--jungle-2);
+      }
+      a.featured {
+        color: var(--secondary);
+        background-color: var(--a-featured);
+        box-shadow: 5px 5px var(--jungle-2);
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.footer {
+  color: var(--primary);
+  background: var(--background);
+  padding: var(--size-fluid-1);
+  a {
+    color: inherit;
+    background: initial;
+    text-decoration: underline;
+  }
+}

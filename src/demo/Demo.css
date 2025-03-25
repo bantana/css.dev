@@ -1,0 +1,51 @@
+:root {
+  --gap-size: 1.5rem;
+}
+
+body {
+  background-color: oklch(65.5% 0.0497 177.1);
+  font-family: Helvetic, Arial, sans-serif;
+}
+
+.stack > * + * {
+  margin-block-start: 1.5em;
+}
+
+.container {
+  max-inline-size: 1080px;
+  margin-inline: auto;
+}
+
+.site-nav {
+  display: flex;
+  gap: var(--gap-size);
+  padding: 0.5rem;
+  list-style-type: none;
+  background-color: oklch(43.2% 0.0296 40.2);
+  li > a {
+    background-color: oklch(63.6% 0.1264 31.2);
+    padding: 0.5em 1em;
+    color: white;
+    text-decoration: none;
+  }
+  .nav-right {
+    margin-inline-start: auto;
+  }
+}
+
+.tile {
+  padding: 1.5em;
+  background: white;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap-size);
+}
+
+.column-main {
+  flex: 2;
+}
+.column-sidebar {
+  flex: 1;
+}
