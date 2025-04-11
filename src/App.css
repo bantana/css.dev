@@ -19,57 +19,14 @@
 @import "open-props/gradients";
 /* see PropPacks for the full list */
 
-/* @import "theme.css"; */
+@import "theme.css";
+
+:root {
+  /* Menu component */
+  --menu-bg-color: #f8f9fa;
+  --menu-item-color: #333;
+  --menu-item-hover-color: #007bff;
+  --menu-item-hover-bg: #e9ecef;
+}
 
 /* body { */
-/*   display: grid; */
-/*   place-content: center; */
-/* } */
-
-/* :root { */
-/*   --list-style: none; */
-/* } */
-
-/* form { */
-/*   font-family: var(--font-family); */
-/*   width: 400px; */
-/*   margin: var(--spacing) auto; */
-/*   padding: var(--spacing); */
-/*   border: 1px solid var(--border-color); */
-/*   border-radius: var(--radius); */
-/*   background: var(--background); */
-/*   box-shadow: var(--shadow); */
-/*   h2 { */
-/*     margin-bottom: var(--spacing); */
-/*     color: var(--primary); */
-/*     text-align: center; */
-/*   } */
-/*   label { */
-/*     display: block; */
-/*     margin-bottom: var(--spacing); */
-/*     font-weight: var(--font-weight); */
-/*     color: var(--primary); */
-/*   } */
-/*   input { */
-/*     width: 100%; */
-/*     padding: var(--size-2); */
-/*     margin-bottom: var(--size-3); */
-/*     border: 1px solid var(--border-color); */
-/*     border-radius: var(--radius); */
-/*     box-shadow: var(--shadow); */
-/*   } */
-/*   button { */
-/*     width: 100%; */
-/*     padding: var(--size-2); */
-/*     background: var(--background); */
-/*     color: var(--primary); */
-/*     border: none; */
-/*     border-radius: var(--radius); */
-/*     cursor: pointer; */
-/*     transition: background var(--ease-in-out); */
-/*   } */
-/*   button:hover { */
-/*     color: var(--seconday); */
-/*     background: var(--seconday-hover); */
-/*   } */
-/* } */

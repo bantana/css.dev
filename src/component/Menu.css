@@ -1,0 +1,31 @@
+.Menu {
+  background-color: var(--menu-bg-color, #f8f9fa);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.Menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.Menu button {
+  background: none;
+  border: none;
+  color: var(--menu-item-color #333);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.Menu button:hover {
+  background-color: var(--menu-item-hover-bg, #007bff);
+  color: var(--menu-item-hover-color, #e9ecef);
+}

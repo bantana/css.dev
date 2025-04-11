@@ -1,4 +1,4 @@
-import "./Demo.css";
+import "./Demo2.css";
 
 export default function Demo() {
   return (
